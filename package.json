@@ -1,0 +1,23 @@
+{
+  "name": "compress",
+  "version": "1.0.0",
+  "description": "URL Shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/atf1999/compress"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "Tom Orth (atf1999)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
