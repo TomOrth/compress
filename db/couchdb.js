@@ -1,3 +1,3 @@
 const nano = require('nano');
-
-module.exports = nano(process.env.COUCHDB_URL || 'http://127.0.0.1:5984');  
+const config = require('../config.json')
+module.exports = nano(process.env.COUCHDB_URL || config.couch);  
