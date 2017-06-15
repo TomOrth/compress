@@ -16,7 +16,7 @@ exports.destroy = () => {
 }
 
 exports.insert = (data, cb) => {
-    const key = data['key']
+    const key = data['key'];
     couch.db.use('compress').insert(data, key, (err, body) => {
         cb(err);
     });
